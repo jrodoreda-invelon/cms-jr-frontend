@@ -1,0 +1,25 @@
+{
+  "name": "cms-jr-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node generate-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrodoreda-invelon/cms-jr-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrodoreda-invelon/cms-jr-frontend/issues"
+  },
+  "homepage": "https://github.com/jrodoreda-invelon/cms-jr-frontend#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3"
+  }
+}
