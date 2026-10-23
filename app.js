@@ -1,7 +1,7 @@
 const API_BASE_URL = window.CONFIG?.API_BASE_URL || 'http://127.0.0.1:8000/api';
 const MY_TOKEN = window.CONFIG?.MY_TOKEN;
 
-if (!MY_TOKEN) console.error('Falta MY_TOKEN: ¿se ha cargado generate-config.js?');
+if (!MY_TOKEN) console.error('Falta MY_TOKEN: ¿se ha cargado config.js?');
 
 const projectsList = document.getElementById('projects-list');
 const form = document.getElementById('create-project-form');
